@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebAPITest.Entities;
+using WebAPITest.Models;
 
 namespace WebAPITest.Contexts
 {
@@ -17,4 +18,5 @@ namespace WebAPITest.Contexts
         public DbSet<Autor> Autores { get; set; }
         public DbSet<Libro> Libros { get; set; }
     }
+
 }
